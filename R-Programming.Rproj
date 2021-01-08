@@ -1,13 +1,8 @@
-Version: 1.0
+#vectors
+vec1 <- c(1,2,3)
+vec2 <- c("a","b","c")
+vec3 <- c(T,F,T)
 
-RestoreWorkspace: Default
-SaveWorkspace: Default
-AlwaysSaveHistory: Default
-
-EnableCodeIndexing: Yes
-UseSpacesForTab: Yes
-NumSpacesForTab: 5
-Encoding: UTF-8
-
-RnwWeave: Sweave
-LaTeX: pdfLaTeX
+mix1 <- c(1,T,2,F)
+mix2 <- c(1,"a",2,"b")
+mix3 <- c(1,"a",T)
